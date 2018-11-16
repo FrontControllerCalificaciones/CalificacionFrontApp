@@ -12,4 +12,5 @@ package mx.edu.uttt.operaciones;
  */
 public class operaciones {
 String popo="creacion clase";
+String laksal="creacion clase";
 }
