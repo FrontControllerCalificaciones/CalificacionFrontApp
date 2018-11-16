@@ -10,13 +10,13 @@ package mx.edu.uttt.frontController;
  * 
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
-/*
+
 public class frontController {
 
- private Operaciones operacion;
+// private operaciones operacion;
     //se instancia para meter operaciones en una variable
-    public FrontController(){
-      operacion = new  Operaciones();
+    public frontController(){
+      //operacion = new  Operaciones();
      
     } //solo es un metodo que va a retornar un booleano
 private boolean estadodevalidacion(){
@@ -39,8 +39,7 @@ private boolean estadodevalidacion(){
    //si cumple con las codiciones del  metodo ingresarusuario que esta en la clase Operaciones ya que 
    //la variable operacion es una instancia de Operaciones
       if(estadodevalidacion()){
-         operacion.ingrsarusuario(usuario);
+        // operacion.ingrsarusuario(usuario);
       }	
    }
 }
-*/
