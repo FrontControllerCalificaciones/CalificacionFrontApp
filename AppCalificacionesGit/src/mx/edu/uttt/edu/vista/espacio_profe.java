@@ -4,14 +4,11 @@
  * and open the template in the editor.
  */
 package mx.edu.uttt.edu.vista;
-
+import mx.edu.uttt.ejecutor.main;
 import javax.swing.JOptionPane;
-/*import operaciones.Operaciones;
-import run.main;
-
 /**
  *
- * @author LUIS
+ * @author net02
  */
 public class espacio_profe extends javax.swing.JFrame {
 

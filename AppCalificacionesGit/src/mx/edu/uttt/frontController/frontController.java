@@ -5,7 +5,7 @@
  */
 
 package mx.edu.uttt.frontController;
-
+import mx.edu.uttt.operaciones.operaciones;
 /**
  * 
  * @author Sammy Guergachi <sguergachi at gmail.com>
@@ -13,10 +13,10 @@ package mx.edu.uttt.frontController;
 
 public class frontController {
 
-// private operaciones operacion;
+private operaciones operacion;
     //se instancia para meter operaciones en una variable
     public frontController(){
-      //operacion = new  Operaciones();
+      operacion = new  operaciones();
      
     } //solo es un metodo que va a retornar un booleano
 private boolean estadodevalidacion(){

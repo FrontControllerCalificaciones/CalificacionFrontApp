@@ -4,15 +4,7 @@
  * and open the template in the editor.
  */
 package mx.edu.uttt.ejecutor;
-
-//import frontcontroller.FrontController; jjaja
-
-
-
-
-
-
-
+import mx.edu.uttt.frontController.frontController;
 
 public class main extends javax.swing.JFrame {
 
@@ -99,8 +91,8 @@ String selectionuser="";
      
      selectionuser=jTextField1.getText();
      
-      //  FrontController Controller = new FrontController();
-     // Controller.realizandovalidacion(selectionuser);
+       frontController Controller = new frontController();
+      Controller.realizandovalidacion(selectionuser);
     
 
         // TODO add your handling code here:

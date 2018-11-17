@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
+
 package mx.edu.uttt.operaciones;
 
 import javax.swing.JOptionPane;
 import javax.swing.JOptionPane;
-import vista_profe.espacio_profe;
-import run.main;
-
+import mx.edu.uttt.edu.vista.espacio_profe;
+import mx.edu.uttt.ejecutor.main;
 /**
  * 
  * @author Sammy Guergachi <sguergachi at gmail.com>
- *//**
+ */
 public class operaciones {
 
     //se crean las vistas como variables 
@@ -24,7 +23,7 @@ public class operaciones {
    
    
    
-   public Operaciones(){
+   public operaciones(){
       login= new main();
       profe= new espacio_profe();
    }
@@ -50,4 +49,3 @@ public class operaciones {
    } 
     
 }
- **/
